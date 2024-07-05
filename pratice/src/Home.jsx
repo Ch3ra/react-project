@@ -16,8 +16,7 @@ import black from "./../public/images/black.png";
 
 import sid from "./../public/images/sid.png";
 import bigimage from "./../public/images/bigimg.png";
-import secd from "./../public/images/secd.png";
-import fth from "./../public/images/fth.png";
+
 
 
 
@@ -33,6 +32,7 @@ import {
 import ServiceCard from "./ServiceCard/ServiceCard";
 import Customer from "./CustomerSay/Customer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
@@ -317,6 +317,10 @@ const Home = () => {
         </div>
 
       </div>
+
+      <>
+      <Footer/>
+      </>
     </>
   );
 };
